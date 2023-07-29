@@ -1,13 +1,10 @@
-const heading = React.createElement
-("div",
-{id:"parent"},
-[React.createElement("div",
-{id:"child"},[
-    React.createElement("h1",{},"I'am an h1 tag"),
-    React.createElement("h1",{},"I'am an h1 tag")
-]),React.createElement("div",{id:"Child2"},[
-    React.createElement("h1",{},"I'am an h1 tag"),
-    React.createElement("h1",{},"I'am an h1 tag"),
-])
-]);
-         ReactDOM.render(heading, document.getElementById("root"));
+import React from "react";
+import ReactDOM from "react-dom";
+
+const heading = (
+<div>
+<h1>Hello React From Akshay Saini🚀🚀🚀🚀</h1>
+<h2>Section 2</h2>
+</div>)
+const root = document.getElementById("root");
+ReactDOM.render(heading, root);
